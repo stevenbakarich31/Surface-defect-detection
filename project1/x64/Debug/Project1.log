@@ -1,0 +1,27 @@
+﻿  WienerFilter.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\..\steel_defect_detection\steel_defect\WienerFilter.cpp': No such file or directory
+  Source.cpp
+f:\mycompleted task\c++project\llp\project1\project1\source.cpp(223): error C2079: 'block_featuers' uses undefined class 'std::array<double,3>'
+f:\mycompleted task\c++project\llp\project1\project1\source.cpp(235): error C2027: use of undefined type 'std::array<double,3>'
+  f:\mycompleted task\c++project\llp\project1\project1\source.cpp(27): note: see declaration of 'std::array<double,3>'
+f:\mycompleted task\c++project\llp\project1\project1\source.cpp(426): error C2027: use of undefined type 'std::array<double,3>'
+  f:\mycompleted task\c++project\llp\project1\project1\source.cpp(27): note: see declaration of 'std::array<double,3>'
+f:\mycompleted task\c++project\llp\project1\project1\source.cpp(426): error C2079: 'Featuers_Extraction' uses undefined class 'std::array<double,3>'
+f:\mycompleted task\c++project\llp\project1\project1\source.cpp(428): error C2079: 'feature_Block' uses undefined class 'std::array<double,3>'
+f:\mycompleted task\c++project\llp\project1\project1\source.cpp(436): error C2109: subscript requires array or pointer type
+f:\mycompleted task\c++project\llp\project1\project1\source.cpp(447): error C2109: subscript requires array or pointer type
+f:\mycompleted task\c++project\llp\project1\project1\source.cpp(459): error C2109: subscript requires array or pointer type
+f:\mycompleted task\c++project\llp\project1\project1\source.cpp(460): error C2664: 'void std::vector<std::array<double,3>,std::allocator<_Ty>>::push_back(_Ty &&)': cannot convert argument 1 from 'int' to 'const _Ty &'
+          with
+          [
+              _Ty=std::array<double,3>
+          ]
+  f:\mycompleted task\c++project\llp\project1\project1\source.cpp(460): note: Reason: cannot convert from 'int' to 'const _Ty'
+          with
+          [
+              _Ty=std::array<double,3>
+          ]
+  f:\mycompleted task\c++project\llp\project1\project1\source.cpp(460): note: use of undefined type 'std::array<double,3>'
+  f:\mycompleted task\c++project\llp\project1\project1\source.cpp(27): note: see declaration of 'std::array<double,3>'
+f:\mycompleted task\c++project\llp\project1\project1\source.cpp(465): error C2109: subscript requires array or pointer type
+  Generating Code...
